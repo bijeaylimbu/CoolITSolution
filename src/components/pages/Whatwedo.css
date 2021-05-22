@@ -1,0 +1,234 @@
+
+
+
+
+.whatwedo{
+
+    height:auto;
+background-color: #2C3E50;
+
+    
+}
+
+.whatwedo h1{
+margin-top: 0px;
+    text-align: center;
+    color:#C3C80A;
+    top:15px;
+
+}
+.whatwedo_main{
+float: left;
+    width:30%;
+    margin-left: 20px;
+    height:auto;
+    
+    border: 2px solid aqua;
+    
+}
+h2{
+
+    color:#BB8FCE;
+}
+.whatwedo_main img{
+
+    width:40%;
+    height:auto;
+}
+.whatwedo_main h2{
+
+    text-align: center;
+} 
+
+.img_whatwedo{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 15px;
+    
+}
+.whatwedo_text{
+font-size:30px ;
+    width: 100%;
+    height: 100px;
+  text-align: center;
+ margin-top: 500px;
+
+    
+    
+}
+
+.whatwedo_text h3{
+
+    margin-top: 460px;
+    font-style:italic;
+}
+
+
+@media screen and (max-width: 960px) {
+    
+.whatwedo_main{
+
+    width:90%;
+    margin-top: 10px;
+
+}
+
+.whatwedo_text{
+
+    margin-top: 30px;
+}
+
+}
+
+
+.whatwedo_ul li:hover{
+
+    color:aqua;
+    font-size:25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.img_whatwedo:hover{
+    width:45%;
+    
+    transition: all 400ms ease;
+    
+
+    
+}
+
+.li{
+
+    list-style-type:"list-style-type:circle";
+   
+}
+
+.whatwedo_ul li{
+
+    color:#F4D03F;
+}
+
+.whatwedo_main li{
+
+    font-size:20px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+    
+   
+    .whatwedo{
+ 
+     height: auto;
+    }
+ 
+   .footer{
+
+  padding-top: 50px;
+   }
+
+   .whatwedo_text{
+
+    padding-top: 100px;
+   }
+ 
+    
+     
+    
+     }
+
+@media screen and (max-width: 850px) {
+    
+   
+    .whatwedo{
+ 
+     height: auto;
+    }
+ 
+   .footer{
+
+  padding-top: 50px;
+   }
+
+   .whatwedo_text{
+
+    padding-top: 100px;
+   }
+ 
+    
+     
+    
+     }
+
+@media screen and (max-width: 800px) {
+    
+   
+    .whatwedo{
+ 
+     height: auto;
+    }
+ 
+   .footer{
+
+  padding-top: 50px;
+   }
+
+   .whatwedo_text{
+
+    padding-top: 100px;
+   }
+ 
+    
+     
+    
+     }
+@media screen and (max-width: 600px) {
+    
+   
+    .whatwedo{
+ 
+     height: auto;
+    }
+ 
+   .footer{
+
+  padding-top: 50px;
+   }
+
+   .whatwedo_text{
+
+    padding-top: 100px;
+   }
+ 
+    
+     
+    
+     }
+
+@media screen and (max-width: 400px) {
+    
+   
+   .whatwedo{
+
+    height: auto;
+   }
+
+   .whatwedo_text h3{
+
+    padding-top: 20px;
+    font-size: 20px;
+   }
+
+   .footer{
+
+    padding-top: 20px;
+    height: 70px;
+   }
+    
+   
+    }

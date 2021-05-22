@@ -1,0 +1,188 @@
+
+
+
+.contact_main{
+width:100%;
+height:auto;
+
+
+
+position: relative;
+}
+
+
+
+.part1{
+
+    width:45%;
+    float:left;
+
+
+    border: 0.2rem outset pink;
+    
+  
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+
+.part2{
+
+    width:44%;
+    float:left;
+
+    border: 0.2rem outset rgb(37, 19, 138);
+    
+  
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+    
+    outline-offset: 0.5rem;
+
+}
+
+.part1 h1{
+
+    text-align: center;
+}
+
+.col-25{
+
+    font-size:20px;
+    margin-top: 20px;
+  
+}
+
+label{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    
+}
+
+.row{
+
+    margin-top:20px;
+}
+
+input{
+
+    width:100%;
+    height:30px;
+    font-family:cursive;
+    border: 2px solid #16BEB3;
+    border-radius: 10px;
+    
+}
+
+.col-75{
+
+    width: 100%;
+}
+
+button{
+
+    background: #4EBE16;
+    border: 2px #DADADA solid;
+    margin-top:10px;
+    width: 100px;
+    height:40px;
+    margin-left:40%;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family:cursive;
+    
+}
+
+button:hover {
+    border: 4px #16BEB3 solid;
+    box-shadow: 3px 3px 3px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 1px #16BEB3;   
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+}
+
+.input_message{
+
+    height:400px;
+    width:100%;
+    
+}
+
+textarea{
+    resize:none;
+    font-family:cursive;
+    border-radius:10px;
+    border: 2px solid #16BEB3;
+    
+    
+}
+
+.part2_text{
+
+    text-align: center;
+}
+
+.input_idea{
+    resize:none;
+    height:200px;
+    width:100%;
+
+
+}
+
+
+
+
+
+
+
+ @media screen and (max-width:1100px){
+
+.part1{
+    width: 90%;
+    margin-left: 0px;
+    height: auto;
+ }
+
+ .part2{
+    width: 90%;
+    margin-left: 0px;
+    height: auto;
+ }
+ 
+
+
+}
+@media screen and (max-width:900px){
+    .part1{
+
+        width:90%;
+        
+    }
+
+    .part2{
+
+        width:90%;
+      
+        
+    }
+
+  
+
+
+
+    
+
+
+
+
+}
