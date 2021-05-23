@@ -34,14 +34,13 @@ export default function Contact(){
     
 
  
-    fetch('http://127.0.0.1:8000/touch/', {
+    fetch('https://coolitsolution-backend.herokuapp.com/touch/', {
       method: 'POST',
       body: uploadData,
       
     })
-  //  alert('thank you for your time ')
-    // history.push('./contact')
-    // window.location.reload();
+    alert('thank you for your time ')
+    window.location.reload();
 
     
 }
@@ -57,7 +56,7 @@ const insertAddIdea = () => {
   
 
 
-  fetch('http://127.0.0.1:8000/idea/', {
+  fetch('https://coolitsolution-backend.herokuapp.com/idea/', {
     method: 'POST',
     body: uploadData,
     
@@ -73,8 +72,8 @@ const insertAddIdea = () => {
 
   })
   // history.push('./contact');
-  // alert('thank you for your time ')
-  // window.location.reload();
+  alert('thank you for your time ')
+  window.location.reload();
   
   
 }
